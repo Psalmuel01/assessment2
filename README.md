@@ -33,12 +33,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone this repository to your local machine:
 
-   git clone https://github.com/your-username/my-nft-project.git
-   cd my-nft-project
-
-2. Install project dependencies:
-
-   npm install
+2. Install project dependencies
 
 ## Usage
 
@@ -74,9 +69,7 @@ To deploy the contract to a testnet (e.g. Sepolia), follow these steps:
 
 Configure your Hardhat network settings in hardhat.config.ts.
 
-Run the deployment script:
-
-npx hardhat run scripts/deploy.ts --network sepolia
+Run the deployment script: npx hardhat run scripts/deploy.ts --network sepolia
 
 ### Deploying to Mainnet
 
