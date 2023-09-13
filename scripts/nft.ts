@@ -1,8 +1,6 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  //   const lockedAmount = ethers.parseEther("0.001");
-
   const psalmuel = await ethers.deployContract("Psalmuel", []);
 
   await psalmuel.waitForDeployment();
