@@ -8,7 +8,7 @@ async function main() {
   console.log(`Psalmuel deployed to ${psalmuel.target}`);
   //0x26F2f9995D136c1717dfad0443442fD4755Bff0a
 
-  // const psalmuel = await ethers.getContractAt("Psalmuel", "0xdE3018dAa16d9f943ba4127f6507899020c27c9B")
+  // const psalmuel = await ethers.getContractAt("Psalmuel", "0x26F2f9995D136c1717dfad0443442fD4755Bff0a")
 
   const [signer] = await ethers.getSigners();
   const _to = signer;

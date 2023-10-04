@@ -4,6 +4,8 @@
 
 My NFT Project is a demonstration of how to create and deploy an ERC-721 compliant NFT contract, mint NFTs, and make them visible on OpenSea.
 
+**Contract Address: 0x26F2f9995D136c1717dfad0443442fD4755Bff0a**
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -59,7 +61,7 @@ You can interact with the deployed contract programmatically using the provided 
 
 ## Configuration
 
-The project can be configured by modifying the contract's deploy code, specifically the _URI parameter, to customize metadata URIs.
+The project can be configured by modifying the contract's deploy code, specifically the \_URI parameter, to customize metadata URIs.
 
 ## Deployment
 
